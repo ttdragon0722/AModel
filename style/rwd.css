@@ -1,0 +1,17 @@
+/* mobile */
+@media (max-width:991px) {
+    .main_page {
+        margin-top: 10vh;
+    }
+    
+    .function_area {
+        display: none;
+    }
+}
+/* pc */
+@media (min-width:991px) {
+
+    .mobile_menu {
+        display: none;
+    }
+}

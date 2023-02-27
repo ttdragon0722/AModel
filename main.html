@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hahahaah</title>
+
+    <!-- font -->
+    <link rel="stylesheet" href="font/font.css">
+
+    <!-- public -->
+    <link rel="stylesheet" href="style/main_content.css">
+
+    <!-- color -->
+    <link rel="stylesheet" href="color/style/main_content.css">
+
+    <!-- rwd -->
+    <link rel="stylesheet" href="style/rwd.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+
+    <!-- js -->
+    <!-- 
+        jquery 3.6.
+        gsap 3.11.4
+    -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="anim.js"></script>
+
+</head>
+<!-- 
+
+    2/27 mobile menu 大致完成
+
+-->
+<body style="height:300vh;">
+    <!-- function area -->
+    <section class="function_area header">
+        <div class="container flex">
+            <!-- left area -->
+            <div class="flex function_area_left">
+                <button id="lang_btn" class="func_btn" style="
+                display: flex;flex-direction:row;align-items: center;
+                ">
+                    <img src="Images/tw.svg" width="22" alt="tw">
+                    <div>繁體中文</div>
+                    <i class="fa-solid fa-caret-down"></i>
+                </button>
+                <button class="func_btn orderCheck_btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="func_btn inf_btn"><i class="fa-solid fa-info"></i></button>
+                <button class="func_btn login_btn">
+                    <i class="fa-solid fa-user"></i>登入</button>
+            </div>
+            <!-- right area -->
+            <div class="flex function_area_right">
+                <a href="" target="_blank">
+                    <img src="Images/img_facebook.svg" width="35" alt="">
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="Images/img_instagram.svg" width="35" alt="">
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="Images/img_youtube.svg" width="35" alt="">
+                </a>
+                <a href="" target="_blank">
+                    <img src="Images/img_line.svg" width="35" alt="">
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="Images/img_store.svg" width="35" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- lang modal -->
+    <div id="lang_modal" class="modal_bg" style="display: none;">
+        <div class="lang_modal">
+            <div class="container modal_title"><b>選擇語言</b></div>
+            <div class="flex lang_group">
+                <button class="func_btn lang_btn select_lang_ch lang_selecting" style="
+                    display: flex;flex-direction:row;align-items: center;
+                    ">
+                    <img src="Images/tw.svg" width="22" alt="tw">
+                    <div>繁體中文</div>
+                </button>
+
+                <button class="func_btn lang_btn select_lang_ch" style="
+                    display: flex;flex-direction:row;align-items: center;
+                    ">
+                    <img src="Images/en.svg" width="22" alt="tw">
+                    <div>English</div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section class="mobile_menu">
+        <div class="mobile_header header">
+            <div class="container flex">
+                <button class="menu_btn"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+            <div class="mobile_menu_bg" style="display: none;">
+                <div class="mobile_menu_group" style="overflow-y: scroll;">
+                    <div class="mobile_menu_item">首頁</div>
+                    <div class="mobile_menu_item">關於</div>
+                    <div class="mobile_menu_item">全部商品</div>
+                    <div class="mobile_menu_item">年節福運好禮</div>
+                    <div class="mobile_menu_item">居家/生活</div>
+                    <div class="mobile_menu_item">玩具/桌遊戲</div>
+                    <div class="mobile_menu_item">辦公/文具</div>
+                    <div class="mobile_menu_item">授權聯名</div>
+                    <div class="mobile_menu_item">護木/愛木/惜木</div>
+                    <div class="mobile_menu_item">木工機器體驗</div>
+                    <div class="mobile_menu_item">套裝行程</div>
+                    <div class="mobile_menu_item">客製化商品</div>
+                    <div class="mobile_menu_item">講座</div>
+                    <div class="mobile_menu_item">最新消息</div>
+                    <div class="mobile_menu_item">媒體報導</div>
+                    <div class="mobile_menu_item">門市據點</div>
+                    <div class="mobile_menu_item">聯絡我們</div>
+                </div>
+            </div>
+    </section>
+
+    <section class="">
+    </section>
+
+    <!-- main -->
+    <section class="main_page flex">
+        <div class="flex main_title">
+            <img src="https://fakeimg.pl/100x100/">
+            <h1>title</h1>
+            <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore assumenda quo facere corporis quibusdam sed, tenetur, voluptatum temporibus dolores sapiente maiores eligendi numquam et repudiandae voluptatem deleniti magni earum!</h5>
+            
+        </div>
+    </section>
+</body>
+
+</html>

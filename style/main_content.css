@@ -1,0 +1,192 @@
+/* init */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+article,
+section,
+aside,
+address,
+nav,
+header,
+footer,
+img {
+    display: block;
+}
+
+img {
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    height: fit-content;
+}
+
+/* public */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+}
+
+.modal_bg {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.modal_title {
+    margin-bottom: 2.5vmin;
+}
+
+/* function area */
+
+.function_area .flex {
+    height: 10vh;
+    align-items: center;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.function_area_left {
+    align-items: center;
+}
+
+.function_area_left button {
+    margin: 1vmin;
+}
+
+/* func btn */
+
+.func_btn {
+    padding: 3px 8px;
+    border-radius: 9999px;
+    font-size: 2vmin;
+}
+
+.func_btn i {
+    padding: 1vmin;
+}
+
+.func_btn div {
+    padding: 1vmin;
+}
+
+.function_area_right {
+    padding: 1vmin;
+}
+
+.function_area_right a {
+    padding: 1vmin;
+}
+
+.lang_modal {
+    z-index: 1100;
+    width: 70vmin;
+    height: fit-content;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 3vmin;
+}
+
+.lang_group button {
+    margin: 1vmin;
+}
+
+.select_lang_ch {
+    font-size: 3vmin;
+}
+
+/* =========== mobile ====================*/
+
+.mobile_menu {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.mobile_menu_group {
+    width: 360px;
+    height: 90vh;
+    z-index: 1100;
+}
+
+.mobile_menu_item {
+    padding: 5%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.mobile_menu_item:hover {
+    background: rgba(145, 145, 145, 0.3);
+}
+
+.mobile_header {
+    background: #000;
+    width: 100%;
+    z-index: 1100;
+}
+
+.mobile_header .flex {
+    height: 10vh;
+    align-items: center;
+    z-index: 1100;
+}
+
+.mobile_menu_bg {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    z-index: 500;
+}
+
+/* =========== main page ==================*/
+
+.main_page {
+    height: 70vh;
+}
+
+.main_title {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
