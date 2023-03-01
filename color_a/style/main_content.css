@@ -50,7 +50,7 @@
 
 .main_page {
     /* background-color: black; */
-    background-image: url('./test3.jpg');
+    background-image: url('/test3.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -109,4 +109,9 @@
 /* footer */
 .footer {
     background-color: #3C4144;
+    color: white;
+}
+
+.copyright {
+    background-color: #323638;
 }
