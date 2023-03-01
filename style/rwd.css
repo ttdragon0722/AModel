@@ -7,6 +7,10 @@
     .function_area {
         display: none;
     }
+
+    .main_wrap {
+        display: none;
+    }
 }
 /* pc */
 @media (min-width:991px) {

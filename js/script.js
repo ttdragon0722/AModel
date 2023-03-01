@@ -75,7 +75,6 @@ function fadeIn(ele) {
         },
         {
             opacity:1 ,
-            stagger: 0.1,
             duration: 0.2
         }
     );

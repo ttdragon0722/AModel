@@ -26,6 +26,7 @@
 /* menu */
 
 .mobile_menu {
+    background-color: white;
 }
 
 .mobile_menu_group {
@@ -43,5 +44,5 @@
 /* main page */
 
 .main_page {
-    background-color: white;
+
 }
