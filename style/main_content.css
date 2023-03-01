@@ -310,6 +310,10 @@ button {
     border-bottom-right-radius: 100%;
 }
 
+.announce {
+    align-items: center;
+    justify-content: center;
+}
 
 /* ======= footer ============= */
 
@@ -347,7 +351,7 @@ button {
 .footer_inf div {
     width: 50%;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 .footer_inf div :hover {
@@ -375,7 +379,6 @@ button {
 }
 
 .copyright .flex {
-    width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
