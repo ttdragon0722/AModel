@@ -1,3 +1,30 @@
+/* font size */
+
+@media ( min-width : 300px ) and ( max-width : 400px ) {
+    .main_subtitle {
+        font-size: 15px;
+    }
+}
+
+/* @media (max-width:480px) {
+    .main_subtitle {
+        font-size: 13px;
+    }
+} */
+
+@media (max-width:500px) {
+    .main_footer {
+        height: 3vh;
+    }
+}
+
+/* @media (max-width:580px) {
+    .main_subtitle {
+        font-size: 18px;
+    }
+} */
+
+
 /* mobile */
 @media (max-width:991px) {
     .main_page {
@@ -17,6 +44,16 @@
     .footer_main {
         margin-top: 8vh;
         flex-direction: column;
+    }
+}
+
+@media (max-width:600px) {
+    .announce {
+        padding-top: 0;
+        flex-direction: column;
+    }
+    .announce img {
+        width: 100%;
     }
 }
 
