@@ -428,7 +428,6 @@
                     $('#pages').find(`>:eq(${currentPage - 1})`).addClass('productSelect');
                     function showItems() {
                         items.hide();
-                        $("html, body").animate({ scrollTop: $('#product').offset().top });
                         const startIndex = (currentPage - 1) * pageSize;
                         const endIndex = startIndex + pageSize;
                         for (let i = startIndex; i < endIndex && i < items.length; i++) {
@@ -464,12 +463,14 @@
                         $('#pages').find(`>:eq(${currentPage - 1})`).removeClass('productSelect');
                         currentPage = parseInt($(this).html());
                         showItems();
+                        $("html, body").animate({ scrollTop: $('#product').offset().top });
                     });
 
                     firstPageBtn.on('click', function () {
                         $('#pages').find(`>:eq(${currentPage - 1})`).removeClass('productSelect');
                         currentPage = 1;
                         showItems();
+                        $("html, body").animate({ scrollTop: $('#product').offset().top });
                     });
 
 
@@ -477,12 +478,14 @@
                         $('#pages').find(`>:eq(${currentPage - 1})`).removeClass('productSelect');
                         currentPage = allPage;
                         showItems();
+                        $("html, body").animate({ scrollTop: $('#product').offset().top });
                     });
 
                     nextPageBtn.on('click', function () {
                         $('#pages').find(`>:eq(${currentPage - 1})`).removeClass('productSelect');
                         currentPage++;
                         showItems();
+                        $("html, body").animate({ scrollTop: $('#product').offset().top });
                     });
 
 
@@ -490,6 +493,7 @@
                         $('#pages').find(`>:eq(${currentPage - 1})`).removeClass('productSelect');
                         currentPage--;
                         showItems();
+                        $("html, body").animate({ scrollTop: $('#product').offset().top });
                     });
 
 
