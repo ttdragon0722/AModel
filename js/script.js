@@ -14,6 +14,19 @@ $(document).ready(function () {
         }
     });
 
+    $('#footer_lang_btn').click(function (e) { 
+        e.preventDefault();
+        if ($('#lang_modal').css('display') === 'none' ) {
+            fadeIn('#lang_modal');
+            $('#lang_modal').css('display', "block");
+            $('body').css('overflow-y','hidden');
+
+        } else {
+            fadeOut('#lang_modal');
+            $('body').css('overflow-y','scroll');
+        }
+    });
+
     $('#lang_modal').click(function (event) {
         if (event.target === this) {
             fadeOut('#lang_modal');
