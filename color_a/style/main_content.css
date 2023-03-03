@@ -52,7 +52,7 @@
 
 .main_page {
     /* background-color: black; */
-    background-image: url('/test3.jpg');
+    background-image: url('../../test3.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
