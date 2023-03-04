@@ -140,7 +140,6 @@ button {
     z-index: 1100;
     width: 70vmin;
     height: fit-content;
-    background-color: white;
     position: relative;
     top: 50%;
     left: 50%;
@@ -161,7 +160,6 @@ button {
 
 .mobile_menu {
     z-index: 500;
-    background-color: white;
     width: 100%;
     position: fixed;
     top: 0px;
@@ -181,12 +179,8 @@ button {
     padding-bottom: 0.5rem;
 }
 
-.mobile_menu_item:hover {
-    background: rgba(145, 145, 145, 0.3);
-}
 
 .mobile_header {
-    background: #000;
     width: 100%;
     z-index: 1100;
 }
@@ -278,7 +272,6 @@ button {
     width: 180%;
     position: absolute;
     z-index: 1;
-    background-color: white;
     transform: translateX(-25%);
     padding: 2px 10px;
 }
@@ -306,7 +299,6 @@ button {
 .wrap_dropdown a {
     width: 100%;
     font-size: 18px;
-    color: black;
     text-decoration: none;
     display: block;
 }
@@ -460,7 +452,6 @@ button {
     width: calc(100% / 4);
     padding: 1%;
     border-radius: 10px;
-    /* background-color: #000 */
 }
 
 .product_img img {
@@ -536,7 +527,7 @@ button {
 }
 
 .footer_inf div :hover {
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px ;
 }
 
 .footer_icon_group {
