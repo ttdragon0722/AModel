@@ -6,6 +6,12 @@
     }
 }
 
+@media (max-width:460px) {
+    .classes {
+        font-size: 13px;
+    }
+}
+
 @media (max-width:480px) {
     .footer_btn_group { 
         flex-direction: column;
@@ -15,6 +21,12 @@
 @media (max-width:500px) {
     .main_footer {
         height: 3vh;
+    }
+}
+
+@media (max-width:580px) {
+    .classes .class_btn {
+        font-size: 15px;
     }
 }
 
@@ -47,6 +59,17 @@
     .service_group div img {
         width: 50%;
     }
+
+    .product_list {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .product_item {
+        width: calc(100% / 3);
+    }
+
 }
 
 @media (max-width:800px) {
@@ -67,9 +90,6 @@
 
     .main_wrap {
         display: none;
-    }
-    .product_item {
-        width: 45%;
     }
 }
 
