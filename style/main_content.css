@@ -430,6 +430,7 @@ button {
 .service_item {
     align-items: center;
     flex-direction: column;
+    opacity: 0;
 }
 
 .service h1 {
