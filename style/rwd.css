@@ -46,6 +46,12 @@
     }
 
     .service_group div img {
+        width: 50vh;
+    }
+}
+
+@media (max-width:650px) and (min-width:600px) {
+    .service_group div img {
         width: 50%;
     }
 }
@@ -56,8 +62,14 @@
         flex-direction: column;
     }
 
-    .service_group div img {
-        width: 50%;
+    .service_item {
+        min-height: 80vh;
+        justify-content: center;
+    }
+
+    .service_item p {
+        padding-top: 0px;
+        padding-bottom: 5vh;
     }
 
     .product_list {
@@ -67,7 +79,7 @@
     }
 
     .product_item {
-        width: calc(100% / 3);
+        width: 44%;
     }
 
 }
@@ -80,8 +92,13 @@
 }
 
 @media (max-width:991px) {
+    .main_title {
+        margin-top: 10vh;
+    }
+
     .main_page {
         margin-top: 10vh;
+        height: 75vh;
     }
 
     .function_area {
